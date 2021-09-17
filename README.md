@@ -5,9 +5,9 @@ Hudle Theme For Hudle Apps.
 ## Add Dependency
    
      dependencies:
-        intent_contact:
+        hudle_theme:
         git:
-           url: git://github.com/hudle/hudle_theme
+          url: git://github.com/hudle/hudle_theme
 
 
 
