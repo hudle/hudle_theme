@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'hudle_colors.dart';
@@ -8,8 +9,13 @@ ThemeData hudleTheme() {
     appBarTheme: hudleAppBarTheme(),
     primaryColor: kColorPrimary,
     primaryColorDark: kColorPrimaryDark,
-    accentColor: kColorAccent,
-    colorScheme: ColorScheme.light(primary: kColorAccent, secondary: kColorAccent, onSecondary: kColorWhite),
+    //accentColor: kColorAccent,
+    indicatorColor: kColorAccent,
+    textSelectionTheme: TextSelectionThemeData(cursorColor: kColorAccent, selectionColor: kColorAccent20),
+    progressIndicatorTheme: ProgressIndicatorThemeData(
+        color: kColorAccent
+    ),
+    colorScheme: ColorScheme.light(primary: kColorPrimary, secondary: kColorAccent),
     scaffoldBackgroundColor: kColorBackground,
   );
 }
@@ -17,7 +23,7 @@ ThemeData hudleTheme() {
 
 AppBarTheme hudleAppBarTheme() {
   return AppBarTheme(
-      brightness : Brightness.dark,
+      systemOverlayStyle : SystemUiOverlayStyle.light,
       titleTextStyle: GoogleFonts.roboto()
   );
 }
