@@ -50,6 +50,7 @@ const  kColorRed = Color(0xffF44336);
 const  kColorCardHeader = Color(0xffEFF1F0);
 const  kColorRedAccent= Color(0xfffd7f7f);
 const  kColorGrayish= Color(0xffF0F0F0);
+const  kColorAccentLight1= Color(0xffCCF1ED);
 
 
 
