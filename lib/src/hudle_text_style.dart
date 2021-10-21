@@ -3,9 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'hudle_colors.dart';
 
-TextStyle primaryStyle({double fontSize = 16, FontWeight? fontWeight}) {
+TextStyle primaryStyle({double fontSize = 16, FontWeight? fontWeight, TextDecoration? decoration}) {
   return GoogleFonts.roboto(
-      fontSize: fontSize, color: kPrimaryText, fontWeight: fontWeight);
+      fontSize: fontSize, color: kPrimaryText, fontWeight: fontWeight, decoration: decoration);
 }
 
 TextStyle secondaryStyle({double fontSize = 14, FontWeight? fontWeight}) {
@@ -18,9 +18,10 @@ TextStyle tertiaryStyle({double fontSize = 12, FontWeight? fontWeight}) {
       fontSize: fontSize, color: kTertiaryText, fontWeight: fontWeight);
 }
 
-TextStyle normalStyle({Color color = kPrimaryText, double fontSize = 14, FontWeight? fontWeight, TextStyle? textStyle, TextDecoration? decoration}) {
+TextStyle normalStyle({Co color = kPrimaryText, double fontSize = 14, FontWeight? fontWeight, TextStyle? textStyle, TextDecoration? decoration}) {
   return GoogleFonts.roboto(
       textStyle: textStyle,
       decoration: decoration,
       fontSize: fontSize, color: color, fontWeight: fontWeight);
 }
+
