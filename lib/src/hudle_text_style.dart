@@ -18,7 +18,7 @@ TextStyle tertiaryStyle({double fontSize = 12, FontWeight? fontWeight}) {
       fontSize: fontSize, color: kTertiaryText, fontWeight: fontWeight);
 }
 
-TextStyle normalStyle({Co color = kPrimaryText, double fontSize = 14, FontWeight? fontWeight, TextStyle? textStyle, TextDecoration? decoration}) {
+TextStyle normalStyle({Color color = kPrimaryText, double fontSize = 14, FontWeight? fontWeight, TextStyle? textStyle, TextDecoration? decoration}) {
   return GoogleFonts.roboto(
       textStyle: textStyle,
       decoration: decoration,
