@@ -24,6 +24,6 @@ ThemeData hudleTheme() {
 AppBarTheme hudleAppBarTheme() {
   return AppBarTheme(
       systemOverlayStyle : SystemUiOverlayStyle.light,
-      titleTextStyle: GoogleFonts.roboto()
+      //titleTextStyle: GoogleFonts.roboto()
   );
 }
