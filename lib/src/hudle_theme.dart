@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'hudle_colors.dart';
 
-ThemeData hudleTheme() {
+ThemeData hudleTheme({Color scaffoldBackgroundColor = kColorBackground}) {
   return ThemeData(
     appBarTheme: hudleAppBarTheme(),
     primaryColor: kColorPrimary,
@@ -16,7 +16,7 @@ ThemeData hudleTheme() {
         color: kColorAccent
     ),
     colorScheme: ColorScheme.light(primary: kColorPrimary, secondary: kColorAccent),
-    scaffoldBackgroundColor: kColorBackground,
+    scaffoldBackgroundColor: scaffoldBackgroundColor,
   );
 }
 
