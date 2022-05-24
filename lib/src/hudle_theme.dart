@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:hudle_theme/hudle_theme.dart';
 import 'package:hudle_theme/src/theme_ext.dart';
 
 import 'hudle_colors.dart';
@@ -33,6 +35,7 @@ ThemeData consumerAppTheme({bool isDark = false}) {
 
 ThemeData _consumerLightTheme() {
   return ThemeData(
+    backgroundColor: kColorBackground,
     useMaterial3: true,
     extensions: [
       HudleColors(
@@ -53,9 +56,27 @@ ThemeData _consumerLightTheme() {
       actionsIconTheme: IconThemeData(color: kColorAccent),
       iconTheme: IconThemeData(color: kColorAppBarIcon),
       backgroundColor: kColorWhite,
-      titleTextStyle: TextStyle(fontSize: 18, color: kColorAppBarTitle),
+      titleTextStyle: GoogleFonts.roboto(
+        fontSize: 18,
+        color: kColorAppBarTitle,
+        fontWeight: FontWeight.w500,
+      ),
       elevation: 0,
     ),
+    textTheme: TextTheme().copyWith(
+      headline1: TextStyle().copyWith(color: Color(0xFF212121)),
+      subtitle1: secondaryStyle(),
+      subtitle2: tertiaryStyle(),
+      titleLarge: primaryStyle(),
+      titleMedium: normalStyle(fontSize: 14),
+      titleSmall: normalStyle(fontSize: 12),
+
+    ),
+    colorScheme: ColorScheme.light(
+      primary: kColorPrimary,
+      secondary: kColorAccent,
+    ),
+    scaffoldBackgroundColor: Color(0xFFF4F5F8),
   );
 }
 
