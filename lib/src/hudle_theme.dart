@@ -64,13 +64,16 @@ ThemeData _consumerLightTheme() {
       elevation: 0,
     ),
     textTheme: TextTheme().copyWith(
-      headline1: TextStyle().copyWith(color: Color(0xFF212121)),
+      headline1: GoogleFonts.roboto(
+          color: kColorBlackText, fontSize: 22, fontWeight: FontWeight.bold),
+      headline2: GoogleFonts.roboto(
+          color: kColorBlackText, fontSize: 20, fontWeight: FontWeight.bold),
+      bodyText1: GoogleFonts.roboto(
+          color: kColorBlackText, fontSize: 14, fontWeight: FontWeight.normal),
+      headline6: GoogleFonts.roboto(
+          color: kColorSubHeading, fontSize: 12, fontWeight: FontWeight.normal),
       subtitle1: secondaryStyle(),
       subtitle2: tertiaryStyle(),
-      titleLarge: primaryStyle(),
-      titleMedium: normalStyle(fontSize: 14),
-      titleSmall: normalStyle(fontSize: 12),
-
     ),
     colorScheme: ColorScheme.light(
       primary: kColorPrimary,

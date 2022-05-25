@@ -53,3 +53,5 @@ const kColorGrayish = Color(0xffF0F0F0);
 const kColorAccentLight1 = Color(0xffCCF1ED);
 const kColorAppBarIcon = Color(0xff999999);
 const kColorAppBarTitle = Color(0xff212121);
+const kColorBlackText = Color(0xff212121);
+const kColorSubHeading = Color(0xff999999);
