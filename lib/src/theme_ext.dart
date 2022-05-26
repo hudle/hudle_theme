@@ -14,6 +14,7 @@ class HudleColors extends ThemeExtension<HudleColors> {
   final Color colorError;
   final Color primaryText;
   final Color secondaryText;
+  final Color secondaryBackground;
 
   @override
   HudleColors copyWith(
@@ -38,6 +39,7 @@ class HudleColors extends ThemeExtension<HudleColors> {
       colorDivider: colorDivider ?? this.colorDivider,
       colorPendingText: colorPendingText ?? this.colorPendingText,
       colorError: colorError ?? this.colorError,
+      secondaryBackground: secondaryBackground
     );
   }
 
@@ -67,6 +69,9 @@ class HudleColors extends ThemeExtension<HudleColors> {
       colorEditTextBorder:
           Color.lerp(colorEditTextBorder, other.colorEditTextBorder, t) ??
               colorEditTextBorder,
+      secondaryBackground:
+      Color.lerp(secondaryBackground, other.secondaryBackground, t) ??
+          secondaryBackground,
     );
   }
 
@@ -85,5 +90,6 @@ class HudleColors extends ThemeExtension<HudleColors> {
       required this.colorPendingText,
       required this.colorError,
       required this.primaryText,
-      required this.secondaryText});
+      required this.secondaryText,
+      required this.secondaryBackground});
 }

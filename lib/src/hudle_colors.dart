@@ -55,3 +55,9 @@ const kColorAppBarIcon = Color(0xff999999);
 const kColorAppBarTitle = Color(0xff212121);
 const kColorBlackText = Color(0xff212121);
 const kColorSubHeading = Color(0xff999999);
+
+
+
+class HudleColorV2 {
+  static const kScaffoldBackground = Color(0xFFF4F5F8);
+}

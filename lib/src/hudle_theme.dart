@@ -35,10 +35,12 @@ ThemeData consumerAppTheme({bool isDark = false}) {
 
 ThemeData _consumerLightTheme() {
   return ThemeData(
-    backgroundColor: kColorBackground,
-    useMaterial3: true,
+    primaryColor: kColorWhite,
+    backgroundColor: HudleColorV2.kScaffoldBackground,
+    useMaterial3: false,
     extensions: [
       HudleColors(
+        secondaryBackground: kColorWhite,
         primaryText: kPrimaryText,
         secondaryText: kSecondaryText,
         colorError: kColorError,
@@ -68,6 +70,11 @@ ThemeData _consumerLightTheme() {
           color: kColorBlackText, fontSize: 22, fontWeight: FontWeight.bold),
       headline2: GoogleFonts.roboto(
           color: kColorBlackText, fontSize: 20, fontWeight: FontWeight.bold),
+      headline4: GoogleFonts.roboto(
+        fontSize: 16,
+        color: kColorBlackText,
+        fontWeight: FontWeight.w500,
+      ),
       bodyText1: GoogleFonts.roboto(
           color: kColorBlackText, fontSize: 14, fontWeight: FontWeight.normal),
       headline6: GoogleFonts.roboto(
@@ -79,7 +86,7 @@ ThemeData _consumerLightTheme() {
       primary: kColorPrimary,
       secondary: kColorAccent,
     ),
-    scaffoldBackgroundColor: Color(0xFFF4F5F8),
+    scaffoldBackgroundColor: HudleColorV2.kScaffoldBackground,
   );
 }
 
