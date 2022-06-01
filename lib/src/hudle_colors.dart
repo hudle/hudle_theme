@@ -60,4 +60,51 @@ const kColorSubHeading = Color(0xff999999);
 
 class HudleColorV2 {
   static const kScaffoldBackground = Color(0xFFF4F5F8);
+  static const kColorPrimary = Color(0xFF1D517F);
+  static const kColorPrimaryDark = Color(0xFF0B2443);
+  static const kColorPrimaryLight = Color(0xFFE6EBF0);
+  static const kColorPrimaryLighter = Color(0xFFF1F5F7);
+  static const kColorOnPrimary = Color(0xFFFFFFFF);
+  static const kColorSecondary = Color(0xFF02B8A5);
+  static const kColorSecondaryDark = Color(0xFF00A392);
+  static const kColorSecondaryLight = Color(0xFF80DBD2);
+  static const kColorSecondaryLighter = Color(0xFFCCF1ED);
+  static const kColorSecondaryLighten = Color(0xFFF0FAF9);
+  static const kColorOnSecondary = Color(0xFFFFFFFF);
+  static const kPrimaryTextColor = Color(0xff212121);
+  static const kSecondaryTextColor = Color(0xff999999);
+  static const kTertiaryTextColor = Color(0xffBBBBBB);
+  static const kHighlightTextColor = Color(0xffF0F0F0);
+  static const kShadowColor = Color(0x1A1D517F);
+  static const kColorOnBackground = kPrimaryTextColor;
+  static const kColorRed = Color(0xFFF04534);
+  static const kColorYellow = Color(0xFFF4DA45);
+  static const kColorViolet = Color(0xFF8656F0);
+  static const kColorOrange = Color(0xFFFF8A00);
+  static const kColorBrown = Color(0xFF955B31);
+  //Gradients
+  static const kSecondaryStartColor = Color(0xFF80DBD2);
+  static const kSecondaryEndColor = Color(0xFF02B8A5);
+  static const kPrimaryStartColor = Color(0xFF1D517F);
+  static const kPrimaryEndColor = Color(0xFF2F7FC7);
+  static const kPrimaryVariantStartColor = Color(0xFF88C8E0);
+  static const kPrimaryVariantEndColor = Color(0xFF066CA2);
+  static const k_StartColor = Color(0xFF);
+  static const k_EndColor = Color(0xFF);
+  static const kVioletStartColor = Color(0xFFBE88E0);
+  static const kVioletEndColor = Color(0xFF5A06A2);
+  static const kGreenStartColor = Color(0xFF7CB93F);
+  static const kGreenEndColor = Color(0xFF557621);
+  static const kSecondaryVariantStartColor = Color(0xFF45CBC9);
+  static const kSecondaryVariantEndColor = Color(0xFF178D80);
+  static const kRedStartColor = Color(0xFFE08888);
+  static const kRedEndColor = Color(0xFFB4274D);
+  static const kBrownStartColor = Color(0xFFE3AC75);
+  static const kBrownEndColor = Color(0xFFBE6812);
+  static const kYellowStartColor = Color(0xFFF4DA45);
+  static const kYellowEndColor = Color(0xFFFF8A00);
+  static const kColorAppBarTitle = Color(0xff212121);
+  static const kColorAppBarIcon = Color(0xff999999);
+
+
 }
