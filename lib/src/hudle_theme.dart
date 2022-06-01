@@ -120,6 +120,10 @@ ThemeData _consumerLightTheme() {
           fontSize: 10,
           fontWeight: FontWeight.normal,
       ),
+      button: GoogleFonts.roboto(
+        fontSize: 14,
+        color: HudleColorV2.kColorSecondary,
+      )
     ),
     colorScheme: ColorScheme.light(
       primary: HudleColorV2.kColorPrimary,
