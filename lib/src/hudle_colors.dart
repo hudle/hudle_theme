@@ -60,17 +60,17 @@ const kColorSubHeading = Color(0xff999999);
 
 class HudleColorV2 {
   static const kScaffoldBackground = Color(0xFFF4F5F8);
-  static const kColorPrimary = Color(0xFF1D517F);
-  static const kColorPrimaryDark = Color(0xFF0B2443);
-  static const kColorPrimaryLight = Color(0xFFE6EBF0);
-  static const kColorPrimaryLighter = Color(0xFFF1F5F7);
-  static const kColorOnPrimary = Color(0xFFFFFFFF);
-  static const kColorSecondary = Color(0xFF02B8A5);
-  static const kColorSecondaryDark = Color(0xFF00A392);
-  static const kColorSecondaryLight = Color(0xFF80DBD2);
-  static const kColorSecondaryLighter = Color(0xFFCCF1ED);
-  static const kColorSecondaryLighten = Color(0xFFF0FAF9);
+  static const kColorSecondary = Color(0xFF1D517F);
+  static const kColorSecondaryDark = Color(0xFF0B2443);
+  static const kColorSecondaryLight = Color(0xFFE6EBF0);
+  static const kColorSecondaryLighter = Color(0xFFF1F5F7);
   static const kColorOnSecondary = Color(0xFFFFFFFF);
+  static const kColorPrimary = Color(0xFF02B8A5);
+  static const kColorPrimaryDark = Color(0xFF00A392);
+  static const kColorPrimaryLight = Color(0xFF80DBD2);
+  static const kColorPrimaryLighter = Color(0xFFCCF1ED);
+  static const kColorPrimaryLighten = Color(0xFFF0FAF9);
+  static const kColorOnPrimary = Color(0xFFFFFFFF);
   static const kPrimaryTextColor = Color(0xff212121);
   static const kSecondaryTextColor = Color(0xff999999);
   static const kTertiaryTextColor = Color(0xffBBBBBB);
