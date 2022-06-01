@@ -140,7 +140,18 @@ ThemeData _consumerLightTheme() {
                 color: HudleColorV2.kColorSecondary,
                 width: 1),),
     ),
-
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        primary: HudleColorV2.kColorSecondary,
+        onPrimary: HudleColorV2.kColorOnSecondary,
+        textStyle: GoogleFonts.roboto(
+          fontWeight: FontWeight.w500,
+        ),
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(4)
+        ),
+      )
+    ),
     colorScheme: ColorScheme.light(
       primary: HudleColorV2.kColorPrimary,
       primaryContainer: HudleColorV2.kColorPrimaryDark,
