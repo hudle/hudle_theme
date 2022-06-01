@@ -123,8 +123,10 @@ ThemeData _consumerLightTheme() {
     ),
     colorScheme: ColorScheme.light(
       primary: HudleColorV2.kColorPrimary,
+      primaryContainer: HudleColorV2.kColorPrimaryDark,
       onPrimary: HudleColorV2.kColorOnPrimary,
       secondary: HudleColorV2.kColorSecondary,
+      secondaryContainer: HudleColorV2.kColorSecondaryDark,
       onSecondary: HudleColorV2.kColorOnSecondary,
       error: kColorError,
       shadow: HudleColorV2.kShadowColor,
