@@ -125,6 +125,22 @@ ThemeData _consumerLightTheme() {
         color: HudleColorV2.kColorSecondary,
       )
     ),
+    textButtonTheme: TextButtonThemeData(
+      style: ButtonStyle(textStyle: MaterialStateProperty.all(GoogleFonts.roboto(
+        fontSize: 14,
+        color: HudleColorV2.kColorSecondary,
+      ),),)
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+                borderRadius:
+                BorderRadius.circular(4),),
+            side: BorderSide(
+                color: HudleColorV2.kColorSecondary,
+                width: 1),),
+    ),
+
     colorScheme: ColorScheme.light(
       primary: HudleColorV2.kColorPrimary,
       primaryContainer: HudleColorV2.kColorPrimaryDark,
