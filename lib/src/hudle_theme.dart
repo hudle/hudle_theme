@@ -131,6 +131,9 @@ ThemeData _consumerLightTheme() {
         color: HudleColorV2.kColorSecondary,
       ),),)
     ),
+    checkboxTheme: CheckboxThemeData(
+        fillColor: MaterialStateProperty.all(HudleColorV2.kColorSecondary)
+    ),
     outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
             shape: RoundedRectangleBorder(
